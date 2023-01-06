@@ -1,0 +1,10 @@
+{
+  "vsicons.presets.nestjs": true,
+  "background.fullscreen": {
+    "image": ["https://www.google.com/url?sa=i&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AAZOV_logo.svg&psig=AOvVaw09oT7G45t0ZXMlP7vVqYfv&ust=1672795292401000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCIDYp5ueqvwCFQAAAAAdAAAAABAm"], // url of your image
+    "opacity": 0.91, // 0.85 ~ 0.95 recommended
+    "size": "cover", // also css, `cover` to self-adaption (recommended)，or `contain`、`200px 200px`
+    "position": "center", // alias to `background-position`, default `center`
+    "interval": 0 // seconds of interval for carousel, default `0` to disabled.
+  },
+}
