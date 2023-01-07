@@ -10,6 +10,7 @@ import { PopoverComponent } from './components/popover/popover.component';
 import { ProfileSummaryComponent } from './components/profile-summary/profile-summary.component';
 import { StartPostComponent } from './components/start-post/start-post.component';
 import { AdvertisingComponent } from './components/advertising/advertising.component';
+import { ModalComponent } from './components/start-post/modal/modal.component';
 
 
 @NgModule({
@@ -24,14 +25,15 @@ import { AdvertisingComponent } from './components/advertising/advertising.compo
     PopoverComponent, 
     ProfileSummaryComponent, 
     StartPostComponent, 
-    AdvertisingComponent
+    AdvertisingComponent,
+    ModalComponent
   ],
   exports: [
     HeaderComponent, 
     PopoverComponent, 
     ProfileSummaryComponent, 
     StartPostComponent, 
-    AdvertisingComponent
+    AdvertisingComponent, 
   ]
 })
 export class HomePageModule {}
